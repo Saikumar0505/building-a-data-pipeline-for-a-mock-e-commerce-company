@@ -14,10 +14,14 @@ This project demonstrates an end-to-end data pipeline for an e-commerce company.
 ## Project Structure
 ```plaintext
 ecommerce-data-pipeline/
-├── config/
-├── data/
-├── src/
-├── tests/
+├── config/config.yaml
+├── data/sales_data_1.csv
+├── src/data_ingestion.py
+├── src/data_transformation.py
+├── src/data_loading.py
+├── src/analytics_query.py
+├── tests/test_data_ingestion.py
+├── tests/test_data_transformation.py
 ├── Dockerfile
 ├── requirements.txt
 ├── README.md
