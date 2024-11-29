@@ -5,6 +5,9 @@ Build a scalable and automated data pipeline to ingest, process, and store sales
 ## Overview
 This project demonstrates an end-to-end data pipeline for an e-commerce company. The pipeline ingests raw sales data, transforms it, and loads it into a database for analytics.
 
+## Data used
+- Here is dataset used: https://github.com/Saikumar0505/building-a-data-pipeline-for-a-mock-e-commerce-company/blob/main/sales_data_1.csv
+- 
 ## Features
 - Ingest sales data from multiple CSV files.
 - Transform and clean data (e.g., calculate total price, handle missing values).
